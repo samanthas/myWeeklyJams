@@ -28,9 +28,12 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### 'Running locally'
+### Running locally
 
-You will need to update the `redirectUri` variable in `Spotify.js` to `http://localhost:3000`
+You will need to create a dotenv file and add the following credentials:
+
+- REACT_APP_REDIRECT_URI="http://localhost:3000/"
+- REACT_APP_CLIENT_ID="" -> your Spotify clientID which you can get from your Spotify application dashboard
 
 In Spotify, go to your app -> Edit Settings and add `http://localhost:3000` to your `Redirect URIs` and save
 
@@ -44,4 +47,4 @@ You'll also need to update the redirectUri in the Spotify.js file and on the Spo
 
 I recommend only running this project locally since deploying it to production doesn't really add anything special. You can send me a message and I can deploy to the project to a surge prod environment as well :)
 
-### 'More to come...'
+### More to come...
