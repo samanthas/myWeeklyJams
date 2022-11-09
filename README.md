@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and coffee.
 
+[Screenshot of MyWeeklyJams](MyJams.PNG?raw=true "Optional Title")
+
 You will need to create an app with Spotify using your personal Spotify account which you can do [here](https://developer.spotify.com/dashboard/login).
 
 This project currently supports searching for a song, album or artist using Spotify's API. You can then add songs to a tracklist and create a playlist that will sync to your personal Spotify account.
